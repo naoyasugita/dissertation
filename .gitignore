@@ -1,0 +1,11 @@
+/data
+/raw_data
+/base_data
+/dataset
+/old_data
+.ipynb_checkpoints
+/pickle
+/eva_imgs
+.vscode
+/tensorlog
+__pycache__
