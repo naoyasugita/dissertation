@@ -19,8 +19,3 @@ cd dissertation
 ```
 pipenv run setup
 ```
-
-#### Start Training
-```
-pipenv run start
-```
