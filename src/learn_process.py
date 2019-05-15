@@ -33,18 +33,3 @@ def csv2img(_file):
 for data in csv_arr:
     for j in range(len(data)):
         csv2img(data[j])
-
-# for i in range(len(csv_arr)):
-#     x = pd.read_csv(csv_arr[i][0])["Step"]
-#     print(x)
-#     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(10, 8))
-#     for j in range(len(csv_arr[i])):
-#         df = pd.read_csv(csv_arr[i][j])
-#         y = df["Value"]
-#         a, b = list(map(int, format(j, '02b')))
-#         axes[a, b].plot(x, y, linewidth=2)
-#         axes[a, b].set_title("test")
-#         axes[a, b].set_xlabel('epoch')
-#         axes[a, b].set_xlim(0, 1)
-#         axes[a, b].grid(True)
-#     fig.show()

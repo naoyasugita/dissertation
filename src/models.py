@@ -550,14 +550,6 @@ class RES:
 
     def forward5(self):
         return self.res5
-        # if layer_name == 'res2':
-        #     return self.res2
-        # if layer_name == 'res3':
-        #     return self.res3
-        # if layer_name == 'res4':
-        #     return self.res4
-        # if layer_name == 'res5':
-        #     return self.res5
 
 
 class Deconv:
